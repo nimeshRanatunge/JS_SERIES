@@ -1,0 +1,7 @@
+mdn
+let can reassign values but const cant change/reassigned directly
+If use const, must assign a value intializer
+
+properties have not - () vs method have ()
+
+Object.values(person); -> convert to values to array and show
