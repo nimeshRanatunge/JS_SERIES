@@ -17,6 +17,11 @@ function onSubmit(e) {
     }else{
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(`${nameInput.value} : ${EmailInput.value}`));
+
+        userList.appendChild(li);
+
+        nameInput.value = '';
+        EmailInput.value = '';
         
     }
 
